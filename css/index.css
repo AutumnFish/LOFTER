@@ -1499,6 +1499,10 @@ body {
 .message-news .message-news-container {
   height: 100%;
 }
+.message-news .message-news-container .message-news-slide {
+  height: auto;
+  min-height: 100%;
+}
 
 .message-news-slide {
   display: -webkit-box;
@@ -1629,6 +1633,7 @@ body {
   line-height: 2.8125rem;
   color: #9ab815;
   margin-top: 0.84375rem;
+  margin-bottom: 0.84375rem;
   background-color: white;
   border-radius: 0.3125rem;
 }

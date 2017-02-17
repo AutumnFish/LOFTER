@@ -674,7 +674,8 @@
         .message-news-container {
             height: 100%;
             .message-news-slide {
-                // height: auto;
+                height: auto;
+                min-height: 100%;
             }
         }
     }
@@ -762,6 +763,7 @@
                 line-height: changeSize(90rem);
                 color: #9ab815;
                 margin-top: changeSize(27rem);
+                margin-bottom: changeSize(27rem);
                 background-color: white;
                 border-radius: changeSize(10rem);
             }
